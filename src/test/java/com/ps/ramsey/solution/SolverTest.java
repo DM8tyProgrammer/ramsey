@@ -1,6 +1,6 @@
-package com.ps.ramsey.algo;
+package com.ps.ramsey.solution;
 
-import com.ps.ramsey.model.Input;
+import com.ps.ramsey.input.Input;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;

@@ -7,7 +7,7 @@
 	<artifactId>ramsey</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
 	<name>ramsey</name>
 
@@ -52,11 +52,14 @@
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-all</artifactId>
 			<version>1.3</version>
+			<scope>test</scope>
 		</dependency>
-	</dependencies>
+
+    </dependencies>
 
 
 	<build>
+		<finalName>ramsey</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

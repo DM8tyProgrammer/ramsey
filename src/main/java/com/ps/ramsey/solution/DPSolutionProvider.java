@@ -1,12 +1,14 @@
-package com.ps.ramsey.algo;
+package com.ps.ramsey.solution;
 
-import com.ps.ramsey.model.Input;
-import com.ps.ramsey.model.Item;
+import com.ps.ramsey.input.Input;
+import com.ps.ramsey.input.Item;
+import org.springframework.stereotype.Component;
 
 /**
  * Solves the problem using Dynamic Programming
  */
-public class DPSolutionProvider implements Solver {
+@Component
+class DPSolutionProvider implements Solver {
 
 
     @Override

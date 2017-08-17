@@ -1,4 +1,4 @@
-package com.ps.ramsey.model;
+package com.ps.ramsey.input;
 
 import com.ps.ramsey.exception.ParseException;
 import org.junit.Test;
@@ -6,9 +6,7 @@ import org.junit.Test;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
 /**

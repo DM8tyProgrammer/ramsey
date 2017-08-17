@@ -1,4 +1,4 @@
-package com.ps.ramsey.model;
+package com.ps.ramsey.input;
 
 /**
  * Represents Item

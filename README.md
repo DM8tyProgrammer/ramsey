@@ -15,4 +15,49 @@ You will be given a text file with the following format:
 
 ## Solution
 
-Essentially, this is 0-1 Knapsack Problem.
+Essentially, this is 0-1 Knapsack Problem. It can be solved using Dynamic Programming technique.
+
+### Project layout
+Intuitively, The project can be divided into two parts:
+1. Reading a file
+   package `input` contains the all the necessary code to parse a file.
+2. Solving the problem based upon file input
+    package `solution` contains the all the code to solve the problem
+
+
+### Building Project
+This is standard maven project, can be built by using maven command:
+
+```sh
+mvn clean install
+```
+
+### Running Test
+Unit tests can be run via following maven command
+
+```sh
+mvn test
+```
+
+### Running the application
+The application supports reading from console, one or more file
+
+
+if file is not specified as argument, the application will take input from console
+
+```sh
+java -jar target/ramsey.jar
+```
+
+
+if file is specified input will be taken from the file.
+
+```sh
+java -jar target/ramesey.jar <path-to-file>
+```
+
+multiple files can be specified as
+```sh
+java -jar target/ramsey.jar <path-to-file1> <path-to-file2>
+```
+
