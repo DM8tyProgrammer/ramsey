@@ -50,7 +50,7 @@ public class SolverTest {
 
         int maxSatisfaction = solver.solve(input);
 
-        assertThat(maxSatisfaction, is(equalTo(15)));
+        assertThat(maxSatisfaction, is(equalTo(10)));
 
     }
 
