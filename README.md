@@ -19,10 +19,12 @@ Essentially, this is 0-1 Knapsack Problem. It can be solved using Dynamic Progra
 
 ### Project layout
 Intuitively, The project can be divided into two parts:
-1. Reading a file
-   package `input` contains the all the necessary code to parse a file.
-2. Solving the problem based upon file input
-    package `solution` contains the all the code to solve the problem
+1. Reading a file.
+
+      package `input` contains the all the necessary code to parse a file.
+2. Solving the problem based upon file input.
+
+      package `solution` contains the all the code to solve the problem.
 
 
 ### Building Project
