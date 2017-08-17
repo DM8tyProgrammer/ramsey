@@ -8,7 +8,7 @@ public class Item {
     private int satisfaction;
     private int time;
 
-    public Item(int satisfaction, int time) {
+    Item(int satisfaction, int time) {
         this.satisfaction = satisfaction;
         this.time = time;
     }

@@ -1,12 +1,8 @@
-package com.ps.ramsey;
+package com.ps.ramsey.model;
 
 import com.ps.ramsey.exception.ParseException;
-import com.ps.ramsey.model.Input;
-import org.hamcrest.CoreMatchers;
-import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
@@ -49,6 +45,5 @@ public class InputParseTest {
         InputStream inputStream = InputParseTest.class.getClassLoader().getResourceAsStream("parse-exception");
 
         Input input = Input.parse(inputStream);
-
     }
 }

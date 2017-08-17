@@ -12,3 +12,7 @@ You will be given a text file with the following format:
 [amount of satisfaction from eating dish 1][time taken for dish 1]
 [amount of satisfaction from dish 2][time taken for dish 2]
 ```
+
+## Solution
+
+Essentially, this is 0-1 Knapsack Problem.
